@@ -1,5 +1,5 @@
 FROM scratch
-ADD amzn2-container-raw-2.0.20190228-x86_64.tar.xz /
-CMD ["/bin/bash"]
 COPY index.php /var/www/html/
 RUN apt-get install -y httpd
+ADD amzn2-container-raw-2.0.20190228-x86_64.tar.xz /
+CMD ["/bin/bash"]
