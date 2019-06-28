@@ -24,4 +24,4 @@ Although we force-push the files away, the older versions of our images remain p
 
 We use [a script to generate the other branches of this repository](update-script/update.sh).
 
-Prueba cambio V1
+Prueba cambio V2
